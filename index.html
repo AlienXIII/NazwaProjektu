@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>Nazwa</title>
+    <style>
+        body{
+            background-color: #b8b8b8;
+            margin:0;
+            padding:5%;
+            }
+
+        .top{
+            box-sizing:border-box;
+            padding:20px;
+            display:inline-block;
+
+        }
+        #div1{
+         background-color:white;
+         width:40%;
+            float:left;
+
+            }
+        #div2{
+          background-color:red;
+          width: 59%;
+            float:right;
+
+        }
+        .cleaner
+        {
+            clear:both;
+        }
+        ul{
+            background-color:blue;
+            text-align:left;
+            margin:5% 0;
+            padding:20px;
+            box-sizing:border-box;
+            position:relative;
+        }
+        ul li.red{
+            color:purple;
+        }
+        .red{
+            color:red!important;
+        }
+
+        ul#ul2 li{
+
+            color:black;
+        }
+
+
+
+        ul li{
+            list-style:none;
+            color:white;
+            position:relative;
+
+            }
+
+        ul li:after{
+
+            content:"";
+            width:10px; height:10px;
+            background-color:black;
+            background-image:url(trollface.jpg);
+            background-size:cover;
+            position:absolute;
+            left:-10px;
+            font-size:30px;
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+<div id="div1" class="top">
+ Biale 40%
+   </div>
+
+<div id="div2" class="top">
+ Czerwone 60%
+</div>
+<div class="cleaner"></div>
+
+<ul>
+  <li>Pierwsza pozycja</li>
+    <li>Druga pozycja</li>
+    <li>Trzecia pozycja</li>
+    <li class="red">Czwarta pozycja</li>
+  </li>
+
+</ul>
+<ul id="ul2">
+  <li>Pierwsza pozycja</li>
+    <li>Druga pozycja</li>
+    <li>Trzecia pozycja</li>
+    <li class="red">Czwarta pozycja</li>
+  </li>
+
+</ul>
+
+<img src="trollface.jpg"/>
+<a href="http://google.com">Guzik 1</a>
+<button>Guzik 2</button>
+
+</body>
+</html>
